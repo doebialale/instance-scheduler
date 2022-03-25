@@ -1,0 +1,6 @@
+#!/bin/bash
+sudo su
+pip install boto3
+pip install azure
+pip install azure.identity
+git clone https://github.com/doebialale/instance-scheduler.git
